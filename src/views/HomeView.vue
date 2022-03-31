@@ -19,7 +19,7 @@
       :key="id"
       ></graphics-gender>
   </div>
-  <div class="last-logs" @click="countM">
+  <div class="last-logs">
     <last-logs></last-logs>
   </div>
 
@@ -134,5 +134,10 @@ export default {
   height: 500px;
   // display: flex;
   justify-content: center;
+   @media (max-width: 620px) {
+      width: 80%;
+      margin-left: 20px;
 }
+}
+
 </style>

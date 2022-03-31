@@ -35,10 +35,8 @@ export default {
   },
   methods: {
     log: function () {
-      console.log('hola')
       localStorage.clear()
       location.reload()
-      // window.location.href = '#/login'
     }
   }
 
@@ -72,6 +70,10 @@ export default {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+       @media (max-width: 600px) {
+       float: left;
+       margin-left: 90px;
+}
 
 }
 
@@ -106,7 +108,7 @@ export default {
 
     }
     @media (max-width: 600px) {
-      display: none;
+      width: 33%;
 }
 }
 .router-link-exact-active {
