@@ -69,6 +69,8 @@ export default {
     addUser () {
       axios.post('https://ur-temp-api.herokuapp.com/api/v1/users', this.form)
         .then(console.log(this.form))
+        .then(alert('Añadido:)'))
+        .then(window.location.href = '/')
     },
     mounted () {
       if (!localStorage.getItem('token')) {
