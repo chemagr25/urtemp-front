@@ -1,7 +1,7 @@
 
 <template>
     <div class="last-logs">
-      <h1>Las logs</h1>
+      <h1>Last logs</h1>
          <div class="data">
       <table class="table-logs" id="customers">
   <tr>
