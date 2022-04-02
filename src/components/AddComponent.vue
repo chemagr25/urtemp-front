@@ -12,7 +12,7 @@
         <div class="cut"></div>
         <label for="temp" class="placeholder" >Temp</label>
       </div>
-      <button type="text" class="submit">submit</button>
+      <button type="text" class="submit">Enviar</button>
       <button type="text" class="submit"><router-link to="/all">Regresar</router-link></button>
     </div>
   </form>

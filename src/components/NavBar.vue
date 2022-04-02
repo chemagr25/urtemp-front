@@ -14,7 +14,7 @@
                 <p>Crear usuario</p>
             </router-link>
         </div>
-        <div class="cont-pic" v-on:click="log"> </div>
+        <div class="cont-pic" v-on:click="logOut"> </div>
 
   </div>
 </template>

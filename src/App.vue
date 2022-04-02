@@ -4,12 +4,9 @@
       <nav-bar></nav-bar>
     </nav>
     <section class="view-route">
-
         <router-view  class="view"></router-view>
-
     </section>
     <aside>
-      <side-bar></side-bar>
     </aside>
 
   </div>

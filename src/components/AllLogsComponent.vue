@@ -1,11 +1,11 @@
 <template>
     <div class="all-logs">
-      <h1>Todos los registros</h1>
+      <h1>Todos</h1>
     <div class="data">
       <table class="table-logs" id="customers">
   <tr>
     <th class="name-title">Nombre</th>
-    <th class="gender-title">Temperature</th>
+    <th class="gender-title">Temperatura</th>
   </tr>
   <tr v-for="(log, index) in logs"
   :key="index">

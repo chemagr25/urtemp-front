@@ -39,7 +39,7 @@
         <div class="cut"></div>
         <label for="temp" class="placeholder" >Rol ID</label>
       </div>
-      <button type="text" class="submit" @click="addUser">submit</button>
+      <button type="text" class="submit" @click="addUser">Registrar</button>
     </div>
   </form>
 </div>
