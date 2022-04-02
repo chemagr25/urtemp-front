@@ -14,8 +14,8 @@
   </div>
   <div class="section-graphics-genre">
       <graphics-gender class="genre"
-      v-for="(genre,id) in genres"
-      :name="genre.name"
+      v-for="(gender,id) in genders"
+      :name="gender.name"
       :key="id"
       ></graphics-gender>
   </div>
@@ -42,14 +42,14 @@ export default {
       Males: 0,
       Females: 0,
       categories: [
-        { name: 'Students', cant: 50 },
-        { name: 'Males', cant: 27 },
-        { name: 'Females', cant: 23 }
+        { name: 'Estudiantes', cant: 50 },
+        { name: 'Hombres', cant: 27 },
+        { name: 'Mujeres', cant: 23 }
       ],
       users: [],
-      genres: [
-        { name: 'Male' },
-        { name: 'Female' }
+      gen: [
+        { name: 'Hombres' },
+        { name: 'Mujeres' }
 
       ],
       lastLogs: [{

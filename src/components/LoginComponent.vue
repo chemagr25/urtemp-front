@@ -5,12 +5,12 @@
       <div class="input-container ic1">
         <input v-model="user.email" id="email" class="input" type="text" placeholder=" " />
         <div class="cut"></div>
-        <label for="email" class="placeholder">email</label>
+        <label for="email" class="placeholder">Correo</label>
       </div>
       <div class="input-container ic2">
         <input v-model="user.password" type="password" placeholder="" id="password" class="input"   />
         <div class="cut"></div>
-        <label for="password" class="placeholder">password</label>
+        <label for="password" class="placeholder">Contraseña</label>
       </div>
       <button type="text" class="submit" @click="login">Login</button>
     </div>

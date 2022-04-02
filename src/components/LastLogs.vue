@@ -5,9 +5,8 @@
          <div class="data">
       <table class="table-logs" id="customers">
   <tr>
-    <th class="name-title">Name</th>
-    <th>Temperature</th>
-    <th class="gender-title">Gender</th>
+    <th class="name-title">Nombre</th>
+    <th class="gender-title">Temperatura</th>
   </tr>
   <tr v-for="(log, index) in lastLogs"
   :key="index">
@@ -15,7 +14,6 @@
       <p :name="log.name">{{log.name}}</p>
       </td>
     <td :class="log.temp < 37 ? 'no' : 'alert'">{{log.temp}} C</td>
-    <td>{{log.gender}}</td>
   </tr>
 </table>
 

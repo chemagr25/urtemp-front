@@ -1,7 +1,7 @@
 <template>
 <form action="" @submit.prevent="addLog">
    <div class="form">
-      <div class="title">Create</div>
+      <div class="title">Crear</div>
       <div class="input-container ic1">
         <input v-model="form.student_id" id="id" class="input" type="text" placeholder=" " />
         <div class="cut"></div>
@@ -34,7 +34,6 @@ export default {
       axios.post('https://ur-temp-api.herokuapp.com/api/v1/logs', this.form)
         .then(alert('Registro añadido'))
         .then(window.location.href = '#/all')
-      // console.log(this.form)
     }
   }
 }

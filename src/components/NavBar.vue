@@ -2,16 +2,16 @@
     <div class="nav">
        <div v-if="auth" class="links">
             <router-link class="link" to="/">
-                <p>Dashboard</p>
+                <p>Principal</p>
             </router-link>
             <router-link class="link" to="/all">
-                <p>all logs</p>
+                <p>Todos</p>
             </router-link>
             <router-link v-show="!auth" class="link" to="/login">
                 <p>login</p>
             </router-link>
             <router-link class="link" to="/register">
-                <p>Create user</p>
+                <p>Crear usuario</p>
             </router-link>
         </div>
         <div class="cont-pic" v-on:click="log"> </div>
@@ -34,7 +34,7 @@ export default {
     }
   },
   methods: {
-    log: function () {
+    logOut: function () {
       localStorage.clear()
       location.reload()
     }

@@ -3,41 +3,41 @@
 <div class="container" v-if="auth == true">
 <form action="" @submit.prevent="addLog">
    <div class="form">
-      <div class="title">Create</div>
+      <div class="title">Crear</div>
        <div class="input-container ic1">
         <input v-model="form.name" id="name" class="input" type="text" placeholder=" " />
         <div class="cut"></div>
-        <label for="id" class="placeholder">name</label>
+        <label for="id" class="placeholder">Nombre</label>
       </div>
       <div class="input-container ic1">
         <input v-model="form.last_name" id="last_name" class="input" type="text" placeholder=" " />
         <div class="cut"></div>
-        <label for="id" class="placeholder">last name</label>
+        <label for="id" class="placeholder">Apellido</label>
       </div>
       <div class="input-container ic1">
         <input v-model="form.phone_number" id="email" class="input" type="text" placeholder=" " />
         <div class="cut"></div>
-        <label for="id" class="placeholder">phone number</label>
+        <label for="id" class="placeholder">Numero de teléfono</label>
       </div>
       <div class="input-container ic2">
         <input v-model="form.password" id="password" class="input" type="password" placeholder=" " />
         <div class="cut"></div>
-        <label for="temp" class="placeholder" >password</label>
+        <label for="temp" class="placeholder" >Contraseña</label>
       </div>
        <div class="input-container ic2">
         <input v-model="form.user_name" id="phone_number" class="input" type="num" placeholder=" " />
         <div class="cut"></div>
-        <label for="temp" class="placeholder" >user name</label>
+        <label for="temp" class="placeholder" >Nombre de Usuario</label>
       </div>
        <div class="input-container ic2">
         <input v-model="form.email" id="user_name" class="input" type="num" placeholder=" " />
         <div class="cut"></div>
-        <label for="temp" class="placeholder" >email</label>
+        <label for="temp" class="placeholder" >Correo</label>
       </div>
        <div class="input-container ic2">
         <input v-model="form.role_id" id="role_id" class="input" type="num" placeholder=" " />
         <div class="cut"></div>
-        <label for="temp" class="placeholder" >role id</label>
+        <label for="temp" class="placeholder" >Rol ID</label>
       </div>
       <button type="text" class="submit" @click="addUser">submit</button>
     </div>
