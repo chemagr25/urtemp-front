@@ -1,6 +1,6 @@
 <template>
     <div class="all-logs">
-      <h1>All logs</h1>
+      <h1>Todos los registros</h1>
     <div class="data">
       <table class="table-logs" id="customers">
   <tr>
