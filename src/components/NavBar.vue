@@ -67,8 +67,8 @@ export default {
   // background-color: red;
     cursor: pointer;
     margin-left: 10px;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
        @media (max-width: 600px) {
        float: left;
