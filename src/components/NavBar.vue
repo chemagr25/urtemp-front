@@ -64,7 +64,7 @@ export default {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-  background-color: red;
+  // background-color: red;
     cursor: pointer;
     margin-left: 10px;
     width: 40px;
