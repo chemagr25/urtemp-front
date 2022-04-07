@@ -42,16 +42,12 @@ export default {
       Males: 0,
       Females: 0,
       categories: [
-        { name: 'Estudiantes', cant: 50 },
+        { name: 'Estudiantes', cant: 0 },
         { name: 'Hombres', cant: 27 },
-        { name: 'Mujeres', cant: 23 }
+        { name: 'Mujeres', cant: 23 },
+        { name: 'Helicopteros pache', cant: 1008 }
       ],
       users: [],
-      gen: [
-        { name: 'Hombres' },
-        { name: 'Mujeres' }
-
-      ],
       lastLogs: [{
         name: '',
         temp: '',
